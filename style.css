@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EA8C00;
+    width: 100wh;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+}
+.header ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+.header ul li a:hover{
+    color:#ea4a00;
+    transition: 0.5s;
+}
+
+form {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #73192B;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  form:focus-within {
+    box-shadow: 0 0 0 4px rgba(115, 25, 43, 30%);
+  }
+  
+  .lupa {
+    width: 37px;
+    height: 38px;
+    padding:8px;
+    background-color: #73192B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .search {
+    display: flex;
+    border: 0;
+    border-radius: 12px;
+    flex-grow: 1;
+    outline: 0;
+    background-color: #FFD485;
+  }
+.pesquisa {
+    border: 0;
+    flex-grow: 1;
+    outline: 0;
+    background-color: #FFD485;
+    padding: 2px 8px;
+  }
+
+.logo{
+    display: block;
+    position: absolute;
+    margin-bottom: 15px;
+    top:-5%;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menina{
+    width: 480px;
+    margin-right: -50px;
+    margin-top: 35px;
+}
+
+
+main{
+    display: flex;
+    justify-content:space-around;
+    gap:80px;
+    align-items: center;   
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Yatra One", sans-serif;
+    color: brown;
+}
+p{
+    display: flex;
+    font-size:17px;
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+.btn{
+   font-family: "Sora",sans-serif;
+   font-weight: bold;
+   color: white;
+   margin-top: 25px;
+   margin-left: 80px;
+   background-color: brown;
+   border: none;
+   border-radius: 25px;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
